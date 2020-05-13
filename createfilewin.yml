@@ -1,5 +1,5 @@
 ---
-- hosts: win
+- hosts: 
   tasks: 
   - name: create a file in win
     win_file:
