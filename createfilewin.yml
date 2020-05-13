@@ -1,0 +1,7 @@
+---
+- hosts: win
+  tasks: 
+  - name: create a file in win
+    win_file:
+     path: 'C:\testviacontroller'
+     state: directory

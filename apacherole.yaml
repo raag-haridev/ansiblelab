@@ -1,0 +1,5 @@
+---
+- hosts: 34.210.0.77
+  become: yes
+  roles:
+  - apache
