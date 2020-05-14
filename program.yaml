@@ -1,5 +1,5 @@
 ---
-- hosts: 
+- hosts: all
   tasks:
   - name: upload the file to target server
     copy:
