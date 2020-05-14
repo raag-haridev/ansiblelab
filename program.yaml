@@ -3,8 +3,8 @@
   tasks:
   - name: upload the file to target server
     copy:
-      src: progarm.sh
-      dest: /home/ansible/program.sh
+      src: shell.sh
+      dest: /home/ansible/shhell.sh
       mode: 0755
   - name: modify the script
     lineinfile:
