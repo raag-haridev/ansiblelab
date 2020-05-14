@@ -1,10 +1,10 @@
 ---
-- hosts: linux
+- hosts: 
   tasks:
   - name: upload the file to target server
     copy:
-      src: /root/shell.sh
-      dest: /home/ansible/shell.sh
+      src: progarm.sh
+      dest: /home/ansible/program.sh
       mode: 0755
   - name: modify the script
     lineinfile:
